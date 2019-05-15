@@ -14,6 +14,7 @@
 		5FE9B1A8228B9FF500247531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE9B1A6228B9FF500247531 /* LaunchScreen.storyboard */; };
 		5FE9B1B0228BA8A400247531 /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9B1AF228BA8A400247531 /* LearnerModel.swift */; };
 		5FE9B1B2228BC4CB00247531 /* FacilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9B1B1228BC4CB00247531 /* FacilitatorModel.swift */; };
+		5FE9B1B4228BC94A00247531 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9B1B3228BC94A00247531 /* StudentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5FE9B1A9228B9FF500247531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FE9B1AF228BA8A400247531 /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
 		5FE9B1B1228BC4CB00247531 /* FacilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitatorModel.swift; sourceTree = "<group>"; };
+		5FE9B1B3228BC94A00247531 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				5FE9B1A4228B9FF500247531 /* Assets.xcassets */,
 				5FE9B1A6228B9FF500247531 /* LaunchScreen.storyboard */,
 				5FE9B1A9228B9FF500247531 /* Info.plist */,
+				5FE9B1B3228BC94A00247531 /* StudentModel.swift */,
 			);
 			path = testOop;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				5FE9B1B2228BC4CB00247531 /* FacilitatorModel.swift in Sources */,
 				5FE9B1A0228B9FF500247531 /* ViewController.swift in Sources */,
 				5FE9B1B0228BA8A400247531 /* LearnerModel.swift in Sources */,
+				5FE9B1B4228BC94A00247531 /* StudentModel.swift in Sources */,
 				5FE9B19E228B9FF500247531 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
