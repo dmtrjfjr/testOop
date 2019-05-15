@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     var myLearnerInstance: LearnerModel?
     var facilInstance: FacilitatorModel?
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -34,5 +35,10 @@ class ViewController: UIViewController {
         }
     }
 
+    @IBAction func increasedBtn(_ sender: Any) {
+        if let instance = myLearnerInstance{
+            instance.increaseAge()
+            updateUI()
+    }
 }
-
+}
